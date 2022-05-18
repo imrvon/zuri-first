@@ -30,6 +30,14 @@ form {
     padding: 20px 0;
 }
 
+.rinput {
+    vertical-align: middle;
+}
+
+.rlabel {
+    vertical-align:top;
+}
+
 button {
     padding: 20px 50px;
     background-color: #297E96;
