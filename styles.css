@@ -7,10 +7,6 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-main {
-    text-align: center;
-}
-
 header {
     color: #ffffff;
     background-color: #484846;
@@ -19,15 +15,28 @@ header {
 
 h2 {
     font-weight: 100;
+    text-align: center;
 }
 
 h1 {
     padding: 50px 0 5px 0;
     font-weight: 100;
+    text-align: center;
 }
 
-form {
-    padding: 20px 0;
+.parent {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-align {
+    padding: 10px 0;
 }
 
 .rinput {
@@ -36,6 +45,11 @@ form {
 
 .rlabel {
     vertical-align:top;
+}
+
+.button {
+    text-align: center;
+    padding: 50px 0;
 }
 
 button {
