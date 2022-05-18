@@ -38,3 +38,15 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media only screen and (max-width:767px) {
+    button {
+        font-size: 1rem;
+        padding: 5px 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 50px 10px 5px 0px;
+    }
+}
